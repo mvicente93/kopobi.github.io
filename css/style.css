@@ -2,7 +2,9 @@
 	margin: 0;
 }
 
-body {}
+body {
+	background-image: url(../img/bg_img.png);
+}
 
 .wrap {
 	width: 60%;
@@ -14,7 +16,8 @@ body {}
 	display: inline-block;
 	width: 49%;
 	height: 150px;
-	background-color: #333333;
+	background-color: #eeeeee;
+	opacity: 0.6;
 	border-radius: 10px;
 }
 
@@ -37,14 +40,15 @@ body {}
 	padding-left: 0;
 	width: 100%;
 	float: left;
+	opacity: 0.6;
 }
 
 .highlights ul li {
+	background-color: #eeeeee;
 	padding-top: 10px;
 	padding-left: 10px;
 	height: 30px;
 	list-style: none;
-	background-color: #444444;
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
