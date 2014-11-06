@@ -1,9 +1,12 @@
 * {
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 body {
-	background-image: url(../img/bg_img.png);
+	background-image: url(../img/bg_img.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .wrap {
@@ -51,4 +54,9 @@ body {
 	list-style: none;
 	margin-bottom: 5px;
 	border-radius: 5px;
+}
+
+.golo {
+	padding-right: 10px;
+	height: 70%;
 }
