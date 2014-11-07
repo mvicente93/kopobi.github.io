@@ -20,7 +20,7 @@ body {
 }
 
 .subscore {
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 .home .logo {
@@ -51,6 +51,7 @@ h1 {
 	width: 49%;
 	min-width: 235px;
 	height: 150px;
+	max-height: 150px;
 	background-color: rgba(238, 238, 238, 0.6);
 	border-radius: 10px;
 	vertical-align: middle;
