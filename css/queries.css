@@ -1,5 +1,24 @@
-@media screen and (max-width: 600px), handheld and (orientation:portrait) {
+@media handheld and (orientation:portrait), (max-width: 600px) {
 	.wrap {
 		width: 90%;
+	}
+}
+
+@media (max-width: 400px) {
+	.wrap {
+		width: 90%;
+		min-width: 0px;
+	}
+
+	.score {
+		min-width: 0px;
+	}
+
+	.logo {
+		margin-top: 50px;
+	}
+
+	.logo img {
+		width: 60px;
 	}
 }
