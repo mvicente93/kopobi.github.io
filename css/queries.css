@@ -14,11 +14,19 @@
 		min-width: 0px;
 	}
 
-	.logo {
-		margin-top: 50px;
+	/*.logo {
+		padding-top: 10px;
+	*/
+
+	.subscore {
+		margin-top: 40px;
 	}
 
 	.logo img {
-		width: 60px;
+		width: 70px;
+	}
+
+	h1 {
+		font-size: 40pt;
 	}
 }
