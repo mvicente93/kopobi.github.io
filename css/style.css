@@ -14,14 +14,21 @@ body {
 	margin: 0 auto;
 }
 
+.subscore {
+	display: inline-block;
+}
+
+.logo {}
+
 .score {
+	padding-top: 20px;
 	margin-top: 10%;
 	display: inline-block;
 	width: 49%;
 	height: 150px;
-	background-color: #eeeeee;
-	opacity: 0.6;
+	background-color: rgba(238, 238, 238, 0.6);
 	border-radius: 10px;
+	vertical-align: middle;
 }
 
 .home {
@@ -56,7 +63,8 @@ body {
 	border-radius: 5px;
 }
 
-.golo {
+.goal {
+	vertical-align: middle;
 	padding-right: 10px;
 	height: 70%;
 }
