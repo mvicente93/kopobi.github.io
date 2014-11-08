@@ -2,9 +2,17 @@
 	.wrap {
 		width: 90%;
 	}
+
+	header {
+		
+	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+	header {
+		font-size: 8pt;
+	}
+
 	.wrap {
 		width: 90%;
 		min-width: 0px;
