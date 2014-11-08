@@ -26,7 +26,11 @@
 		width: 70px;
 	}
 
-	h1 {
+	h2 {
 		font-size: 40pt;
+	}
+
+	.gameInfo {
+		display: none;
 	}
 }
